@@ -8,8 +8,8 @@ curr_time = datetime.utcnow().strftime('%H:%M:%S %p UTC')
 
 info = {
     "slack_name": "Obinna Anya",
-    "current_day": "Thursday",
-    "utc_time": "2023-08-21T15:04:05Z",
+    "current_day": curr_day,
+    "utc_time": curr_time,
     "track": "backend",
     "github_file_url": "https://github.com/SidKay/HNG-API-Endpoint/blob/main/endpoint.py",
     "github_repo_url": "https://github.com/SidKay/HNG-API-Endpoint",
